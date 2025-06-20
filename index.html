@@ -45,7 +45,16 @@
           scene2: {
             type: 'equirectangular',
             panorama: 'another360image.jpg',
-            autoLoad: true
+            autoLoad: true,
+            hotSpots: [
+              {
+                pitch: -3,         // 원하는 위치 값
+                yaw: -166,           // 원하는 위치 값
+                type: 'scene',
+                text: '이전 공간으로 이동',
+                sceneId: 'scene1'
+              }
+            ]
           }
         }
       });
