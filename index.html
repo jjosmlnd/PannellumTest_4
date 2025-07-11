@@ -18,40 +18,39 @@
         scenes: {
           scene1: {
             type: 'equirectangular',
-            panorama: 'your360image.jpg',
+            panorama: '1_Entrance.jpg',
             autoLoad: true,
             hotSpots: [
               {
-                pitch: 4,
-                yaw: -79,
+                pitch: -23,
+                yaw: -123,
                 type: 'info',
-                text: '티비',
-                URL: 'images/cat.jpg'
+                text: 'Break Room',
               },
               {
-                pitch: -33,
-                yaw: -53,
+                pitch: 0,
+                yaw: 136,
                 type: 'info',
-                text: '팀장님입니다.'
+                text: 'Storage'
               },
               {
                 pitch: 7,
                 yaw: 104,
                 type: 'info',
-                text: '프린터입니다.'
+                text: 'Women's Restroom.'
               },
               {
-                pitch: 3,
-                yaw: 69,
+                pitch: -20,
+                yaw: 137,
                 type: 'scene',
-                text: '다른 공간으로 이동',
+                text: 'go to hallway',
                 sceneId: 'scene2'
               }
             ]
           },
           scene2: {
             type: 'equirectangular',
-            panorama: 'another360image.jpg',
+            panorama: '2_Hallway.jpg',
             autoLoad: true,
             hotSpots: [
               {
